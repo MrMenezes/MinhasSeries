@@ -1,0 +1,133 @@
+body {
+    background: #000;
+    font: 12px Verdana, sans-serif;
+    
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color:#FFF;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#top {
+    width: 100%;
+    height:60px%;
+    background: #000;
+    text-align: center;
+    position: absolute;
+    top: 0;
+}
+
+#corpo {
+    background: #FFFFF0;
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+#layer0 {
+    float: left;
+    width: 80%;
+    height: 100%;
+    position: static;
+}
+
+.conteudo {
+    
+    background: #FFFFF0;
+    float: left;
+    border: 2px;
+    height: 100%;
+    width: 80%;
+    position: static;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    direction: rtl;
+}
+
+.seclateral {
+    right: 0;
+    position: fixed;
+    float: right;
+    width: 350px;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.layer {
+    margin: 2%;
+    width: 107px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.layer .spanTp,
+.layer .spanEp,
+.layer select {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.layer select {
+    display: none;
+}
+
+.limg {
+    width: 100%;
+    height: 160px;
+}
+
+.del {
+    width: 15px;
+    height: 15px;
+    opacity: 0;
+    float: right;
+}
+
+.del:hover {
+    opacity: 1;
+}
+
+.seclateral ul {
+    list-style: none;
+}
+
+.seclateral ul li {}
+
+.seclateral ul li a {
+    margin-right: 10px;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    background-color: #FFFFF0;
+    line-height: 30px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.seclateral ul li a:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.bg-busca {
+    background-color: #FFF;
+    position: static;
+    width: 300px;
+    height: 22px;
+    border: none;
+    float: left;
+    font-size: 14px;
+    color: #a3a3a3;
+    padding: 5px 10px;
+}
+
